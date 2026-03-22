@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.problem {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
