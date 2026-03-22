@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>수능 속도훈련기</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top">
+  ⏱ <span id="timer">90</span>s
+  | 점수: <span id="score">0</span>
+</div>
+
+<div class="problem">
+  <img id="problem-img" src="" />
+  <canvas id="canvas"></canvas>
+</div>
+
+<div class="choices">
+  <button onclick="submitAnswer(1)">①</button>
+  <button onclick="submitAnswer(2)">②</button>
+  <button onclick="submitAnswer(3)">③</button>
+  <button onclick="submitAnswer(4)">④</button>
+  <button onclick="submitAnswer(5)">⑤</button>
+</div>
+
+<script src="problems.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
